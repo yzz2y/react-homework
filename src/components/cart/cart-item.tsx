@@ -14,7 +14,7 @@ function CartItem({ item, updateQuantity }: CartItemProps) {
       'w-full'
     )}>
       <img
-        src={`/public/product-${item.id}.png`}
+        src={`/product-${item.id}.png`}
         alt={`${item.name} 이미지`}
         className={tm(
           'flex justify-center items-center', 
