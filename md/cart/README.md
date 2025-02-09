@@ -19,11 +19,11 @@
 ![components](./images/components.jpeg)
 
 - Cart
-- CartTitle
-- CartItemList
-  - CartItem
-    - Counter
-- CartTotal
+  - CartTitle
+  - CartItemList
+    - CartItem
+      - Counter
+  - CartTotal
 
 ### 데이터 & 상태 관리
 
