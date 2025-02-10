@@ -11,6 +11,9 @@ const viteConfig = defineConfig({
     }),
     tailwindcss(),
   ],
+  build: {
+    outDir: 'docs'
+  },
   server: {
     host: 'localhost',
     port: 3000,
