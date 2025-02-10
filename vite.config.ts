@@ -4,6 +4,7 @@ import { defineConfig } from 'vite';
 import { fileURLToPath } from 'node:url';
 
 const viteConfig = defineConfig({
+  base: 'react-homework',
   plugins: [
     react({
       jsxRuntime: 'automatic',
